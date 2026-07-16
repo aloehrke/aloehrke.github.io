@@ -12,6 +12,8 @@ about:
     - icon: CV
       text: CV
       href: AL-CV-2026.pdf
+      target: "_blank"
+      rel: "noopener"
 ---
 
 
@@ -20,8 +22,6 @@ about:
 I am a Ph.D. Candidate in the Department of Political Science at the University of California, Davis. My research focuses on American political behavior, with particular interests in gender, race, and ethnic politics, identity and representation, and media and political communication. Methodologically, I draw on computational social science, machine learning, and natural language processing to study text and political discourse.
 
 I also have extensive teaching experience at UC Davis, having served as a teaching assistant for both graduate and undergraduate courses in quantitative methods and American politics, as well as for the ICPSR Summer Program in Quantitative Methods at the University of Michigan.
-
-[Replace `profile.jpeg` with your own photo — keep the same filename so the YAML above still works.]
 
 
 
