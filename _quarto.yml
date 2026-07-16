@@ -1,0 +1,23 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!CLAUDE.md"
+
+website:
+  title: "Amanda Loehrke"
+  site-url: "https://aloehrke.github.io/"
+  description: "Ph.D. Candidate in Political Science, University of California, Davis"
+  search: false
+  navbar: false
+
+format:
+  html:
+    theme:
+      - sandstone
+      - custom.scss
+    toc: false
+    highlight-style: monokai
+
+
+
