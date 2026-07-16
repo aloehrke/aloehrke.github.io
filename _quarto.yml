@@ -5,10 +5,11 @@ project:
     - "!CLAUDE.md"
   resources:
     - "AL-CV-2026.pdf"
+    - "CNAME"
 
 website:
   title: "Amanda Loehrke"
-  site-url: "https://aloehrke.github.io/"
+  site-url: "https://amandaloehrke.com/"
   description: "Ph.D. Candidate in Political Science, University of California, Davis"
   search: false
   navbar: false
