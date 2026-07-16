@@ -3,6 +3,8 @@ project:
   render:
     - "*.qmd"
     - "!CLAUDE.md"
+  resources:
+    - "AL-CV-2026.pdf"
 
 website:
   title: "Amanda Loehrke"
