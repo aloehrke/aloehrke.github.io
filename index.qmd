@@ -1,40 +1,60 @@
 ---
 title: "Amanda Loehrke"
-subtitle: "Ph.D. Candidate <br> Department of Political Science <br> University of California, Davis"
-image: profile.jpeg
+description: "Ph.D. Candidate in Political Science, University of California, Davis"
 toc: false
-about:
-  template: trestles
-  image-shape: rounded
-  links:
-    - icon: envelope
-      href: mailto:aloehrke@ucdavis.edu
-    - icon: CV
-      text: CV
-      href: AL-CV-2026.pdf
-      target: "_blank"
-      rel: "noopener"
+page-layout: full
 ---
 
+```{=html}
+<div class="site-wrap">
+  <div class="site-sidebar">
+    <div class="site-photo"></div>
+    <div class="site-heading">
+      <h1>Amanda Loehrke</h1>
+      <svg class="site-underline" viewBox="0 0 260 10" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M2 6 C 40 2, 70 9, 110 5 S 180 1, 258 6" fill="none" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      <p class="site-sub">Ph.D. Candidate</p>
+      <p class="site-kicker">Political Science, UC Davis</p>
+      <div class="site-contact">
+        <a href="mailto:aloehrke@ucdavis.edu" aria-label="Email" title="aloehrke@ucdavis.edu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+            <path d="M3 7l9 6 9-6"></path>
+          </svg>
+        </a>
+        <a href="AL-CV-2026.pdf" target="_blank" rel="noopener" aria-label="Curriculum Vitae" title="Download CV">CV</a>
+      </div>
+    </div>
+  </div>
 
-### Biography
+  <div class="site-main">
+    <div class="site-section">
+      <h2>Biography</h2>
+      <p>I am a Ph.D. Candidate in the Department of Political Science at the University of California, Davis. My research focuses on American politics and methodology, with particular interests in gender politics, race &amp; ethnic politics, and media communication. I am interested in how people&rsquo;s identities influence how they interact in politics from the voter and candidate perspectives. Methodologically, I use computational social science, natural language processing, text as data, and machine learning.</p>
+      <p>Additionally, I have extensive teaching experience, having served as a teaching assistant for graduate and undergraduate courses in quantitative methods and American politics, and for the ICPSR Summer Program in Quantitative Methods.</p>
+    </div>
 
-I am a Ph.D. Candidate in the Department of Political Science at the University of California, Davis. My research focuses on American politics and methodology, with particular interests in gender, race & ethnic politics, and media communication. I am interested in how people's identities influence how they interact in politics from the voter and candidate perspectives. Methodologically, I use computational social science, natural language processing, text as data, and machine learning.
+    <div class="site-section">
+      <h2>Education</h2>
+      <div class="site-edu">
+        <div class="site-edu-item"><span class="site-degree">Ph.D., Political Science</span><span class="site-edu-dot" aria-hidden="true"></span><span class="site-where">2022&ndash;2027 (in progress), University of California, Davis</span></div>
+        <div class="site-edu-item"><span class="site-degree">B.A., Political Science</span><span class="site-edu-dot" aria-hidden="true"></span><span class="site-where">2021, University of Wisconsin&ndash;Green Bay</span></div>
+      </div>
+    </div>
 
-Additionally, I have extensive teaching experience, having served as a teaching assistant for both graduate and undergraduate courses in quantitative methods and American politics and as a teaching assistant for the ICPSR Summer Program in Quantitative Methods.
-
-
-
-### Education
-
-<div class="topbr">
-<p class="custom-subtitle"> {{< fa graduation-cap >}} **Ph.D. in Political Science, 2022–2027 (in progress)** | University of California, Davis</p>
-
-<p class="custom-subtitle"> {{< fa graduation-cap >}} **B.A. in Political Science, 2021** | University of Wisconsin–Green Bay </p>
+    <div class="site-section">
+      <h2>Research interests</h2>
+      <div class="site-pills">
+        <span>American Political Behavior</span>
+        <span>Gender Politics</span>
+        <span>Race &amp; Ethnic Politics</span>
+        <span>Media &amp; Political Communication</span>
+        <span>Computational Social Science</span>
+        <span>Natural Language Processing</span>
+        <span>Machine Learning</span>
+      </div>
+    </div>
+  </div>
 </div>
-
-
-
-### Research interests
-
-American Political Behavior | Gender Politics | Race & Ethnic Politics | Media & Political Communication | Computational Social Science | Natural Language Processing | Machine Learning
+```

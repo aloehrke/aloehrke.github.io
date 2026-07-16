@@ -6,6 +6,7 @@ project:
   resources:
     - "AL-CV-2026.pdf"
     - "CNAME"
+    - "profile.jpeg"
 
 website:
   title: "Amanda Loehrke"

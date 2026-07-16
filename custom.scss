@@ -1,32 +1,109 @@
 /*-- scss:defaults --*/
 
+/*-- scss:rules --*/
 
-// fonts
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,400;1,700&family=Rethink+Sans:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+:root{
+  --bg:#FBFAF8;
+  --ink:#2A241F;
+  --line:#E7DED4;
+  --accent:#7C5468;
+  --green:#7A8C5A;
+}
 
+/* Dark variant: not a naive inversion — warmed dark ground, lightened
+   accent/green for contrast, same hue families as the light version. */
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#211D18;
+    --ink:#ECE4D8;
+    --line:#3E362B;
+    --accent:#CC9AB0;
+    --green:#A8BD87;
+  }
+}
 
+#title-block-header{ display:none; }
 
-$font-family-sans-serif: "Rethink Sans" !default;
+body{
+  background: var(--bg);
+  color: var(--ink);
+  font-family: Charter, Georgia, serif;
+}
 
-$headings-font-family: "Montserrat" !default;
-$headings-font-weight: 600 !default;
+a{ color: var(--accent); }
 
-$navbar-font-family: "Montserrat" !default;
-$toc-font-family: "Montserrat" !default;
-$footer-font-family: "Montserrat" !default;
+.site-wrap{
+  max-width: 1080px; margin: 0 auto;
+  display:grid; grid-template-columns: 250px 1fr; gap: 3rem;
+  align-items: start;
+  padding: 3.25rem clamp(1.25rem,5vw,3rem) 5rem;
+}
+.site-sidebar{
+  text-align:center;
+  border-right: 1px solid var(--line);
+  padding-right: 2rem;
+}
+.site-photo{
+  width: 220px; height:220px; border-radius: 50%; margin: 0 auto;
+  background-image: url('profile.jpeg'); background-size:cover; background-position:center;
+  border: 6px solid var(--bg); box-shadow: 0 0 0 1.5px var(--line);
+}
+.site-heading{ margin-top: 1.4rem; }
+.site-heading h1{
+  margin:0; font-family: "Optima", "Avenir Next", "Futura", "Century Gothic", system-ui, sans-serif;
+  font-weight:600; font-size: clamp(1.5rem,3vw,1.85rem); letter-spacing:0.01em; text-wrap:balance;
+  color: var(--ink);
+}
+.site-heading svg.site-underline{ display:block; width: 100%; max-width: 180px; height:8px; margin: 2px auto 0; }
+.site-heading svg.site-underline path{ stroke: var(--green); }
+.site-heading .site-sub{ margin:0.6rem 0 0; font-size:0.95rem; opacity:0.72; font-family: Charter, Georgia, serif; }
+.site-heading p.site-kicker{
+  margin:0.5rem 0 0; font-family: "Optima", "Avenir Next", "Futura", system-ui, sans-serif;
+  font-size:0.68rem; letter-spacing:0.14em; text-transform:uppercase; opacity:0.6;
+}
 
+.site-contact{ display:flex; gap:0.6rem; justify-content:center; margin-top:1.1rem; }
+.site-contact a{
+  display:flex; align-items:center; justify-content:center;
+  width: 42px; height:42px; border-radius: 10px;
+  border: 1px solid color-mix(in srgb, var(--accent) 45%, transparent);
+  color: var(--ink); text-decoration:none;
+  font-family: -apple-system, system-ui, sans-serif; font-size:0.76rem; font-weight:700;
+  transition: background-color .15s ease, border-color .15s ease;
+}
+.site-contact a:hover{ background: color-mix(in srgb, var(--accent) 12%, transparent); border-color: var(--accent); }
+.site-contact svg{ width:19px; height:19px; }
 
-// Body
-$body-color: #212529 !default;
+.site-main{ min-width: 0; }
+.site-section{ margin-bottom: 2rem; }
+.site-section h2{
+  margin:0 0 0.85rem; font-family: "Optima", "Avenir Next", "Futura", system-ui, sans-serif;
+  font-size:0.75rem; letter-spacing:0.14em; text-transform:uppercase; color: var(--accent);
+  border-bottom: none; padding-bottom: 0;
+}
+.site-section p{ margin:0 0 0.9rem; line-height:1.75; font-size:1.03rem; max-width:60ch; color: var(--ink); }
 
-// Navbar
-$navbar-bg: #022851 !default;
-$navbar-fg: #ffffff !default;
-$navbar-hl: #ffffff !default;
+.site-edu{ display:flex; flex-direction:column; gap:0.9rem; }
+.site-edu-item{ display:flex; gap:0.4rem; align-items:center; flex-wrap:wrap; line-height:1.4; }
+.site-edu-item .site-degree{ font-weight:700; }
+.site-edu-item .site-where{ opacity:0.68; font-size:0.95rem; }
+.site-edu-dot{
+  flex:none; width:4px; height:4px; background: var(--green);
+  border-radius: 46% 54% 42% 58% / 58% 45% 55% 42%;
+}
 
+.site-pills{ display:flex; flex-wrap:wrap; gap:0.55rem; }
+.site-pills span{
+  background: color-mix(in srgb, var(--green) 12%, var(--bg));
+  color: var(--ink);
+  border: 1px solid color-mix(in srgb, var(--green) 30%, transparent);
+  border-radius: 999px; padding: 0.35rem 0.85rem; font-size: 0.88rem;
+  font-family: -apple-system, system-ui, sans-serif;
+}
 
-// Links
-$link-color:  #022851 !default;
-$link-decoration: underline !default;
-$link-hover-color: #3093CF !default;
-$link-hover-decoration: underline !default;
+@media (max-width: 1100px){
+  .site-wrap{ grid-template-columns: 1fr; gap: 2rem; padding-top: 3rem; }
+  .site-sidebar{ border-right:none; border-bottom: 1px solid var(--line); padding-right:0; padding-bottom: 2rem; }
+  .site-photo{ width: 180px; height:180px; }
+  .site-main{ max-width: 480px; margin: 0 auto; }
+}
