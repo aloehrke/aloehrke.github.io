@@ -17,11 +17,11 @@ about:
 ---
 
 
-### Bio
+### Biography
 
-I am a Ph.D. Candidate in the Department of Political Science at the University of California, Davis. My research focuses on American political behavior, with particular interests in gender, race, and ethnic politics, identity and representation, and media and political communication. Methodologically, I draw on computational social science, machine learning, and natural language processing to study text and political discourse.
+I am a Ph.D. Candidate in the Department of Political Science at the University of California, Davis. My research focuses on American politics and methodology, with particular interests in gender, race & ethnic politics, and media communication. I am interested in how people's identities influence how they interact in politics from the voter and candidate perspectives. Methodologically, I use computational social science, natural language processing, text as data, and machine learning.
 
-I also have extensive teaching experience at UC Davis, having served as a teaching assistant for both graduate and undergraduate courses in quantitative methods and American politics, as well as for the ICPSR Summer Program in Quantitative Methods at the University of Michigan.
+Additionally, I have extensive teaching experience, having served as a teaching assistant for both graduate and undergraduate courses in quantitative methods and American politics and as a teaching assistant for the ICPSR Summer Program in Quantitative Methods.
 
 
 
@@ -37,4 +37,4 @@ I also have extensive teaching experience at UC Davis, having served as a teachi
 
 ### Research interests
 
-American political behavior | Gender, race & ethnic politics | Media & political communication | Computational social science & NLP
+American Political Behavior | Gender Politics | Race & Ethnic Politics | Media & Political Communication | Computational Social Science | Natural Language Processing | Machine Learning
