@@ -56,6 +56,10 @@ a{ color: var(--accent); }
 }
 .site-heading svg.site-underline{ display:block; width: 100%; max-width: 180px; height:8px; margin: 2px auto 0; }
 .site-heading svg.site-underline path{ stroke: var(--green); }
+
+.site-end-divider{ border-top: 1px solid var(--line); margin-top: 2rem; }
+.site-end-mark{ display:block; width:90px; height:10px; margin:2rem auto 0; }
+.site-end-mark path{ stroke: var(--green); }
 .site-heading .site-sub{ margin:0.6rem 0 0; font-size:0.95rem; opacity:0.72; font-family: Charter, Georgia, serif; }
 .site-heading p.site-kicker{
   margin:0.5rem 0 0; font-family: "Optima", "Avenir Next", "Futura", system-ui, sans-serif;
@@ -95,9 +99,10 @@ a{ color: var(--accent); }
 
 .site-main{ min-width: 0; }
 .site-section{ margin-bottom: 2rem; }
+.site-section:not(:first-of-type){ border-top: 1px solid var(--line); padding-top: 2rem; }
 .site-section h2{
   margin:0 0 0.85rem; font-family: "Optima", "Avenir Next", "Futura", system-ui, sans-serif;
-  font-size:0.75rem; letter-spacing:0.14em; text-transform:uppercase; color: var(--accent);
+  font-size:0.9rem; letter-spacing:0.14em; text-transform:uppercase; color: var(--accent);
   border-bottom: none; padding-bottom: 0;
 }
 .site-section p{ margin:0 0 0.9rem; line-height:1.75; font-size:1.03rem; max-width:60ch; color: var(--ink); }
@@ -109,6 +114,17 @@ a{ color: var(--accent); }
 .site-edu-item .site-where::before{
   content:""; flex:none; width:4px; height:4px; background: var(--green);
   border-radius: 46% 54% 42% 58% / 58% 45% 55% 42%;
+}
+.site-edu-entry{ display:flex; flex-direction:column; gap:0.3rem; }
+.site-edu-year{ opacity:0.68; font-size:0.95rem; display:inline-flex; align-items:center; gap:0.4rem; }
+.site-edu-year::before{
+  content:""; flex:none; width:4px; height:4px; background: var(--green);
+  border-radius: 46% 54% 42% 58% / 58% 45% 55% 42%;
+}
+.site-edu-univ{
+  font-family: "Optima", "Avenir Next", "Futura", system-ui, sans-serif;
+  font-size:0.8rem; letter-spacing:0.1em; text-transform:uppercase; opacity:0.6; color: var(--ink);
+  font-weight:700; white-space:nowrap;
 }
 
 .site-pills{ display:flex; flex-wrap:wrap; gap:0.55rem; }
@@ -126,9 +142,10 @@ a{ color: var(--accent); }
   border-radius: 14px;
   padding: 1.1rem 1.4rem;
 }
-.site-card-label{
+.site-card .site-card-label{
   margin:0 0 0.35rem; font-family: "Optima", "Avenir Next", "Futura", system-ui, sans-serif;
-  font-size:0.68rem; letter-spacing:0.12em; text-transform:uppercase; color: var(--green); opacity:0.85;
+  font-size:0.8rem; letter-spacing:0.1em; text-transform:uppercase; color: var(--ink); opacity:0.6;
+  font-weight:700; white-space:nowrap;
 }
 .site-card-title{ margin:0; font-size:1.05rem; line-height:1.6; color: var(--ink); }
 .site-pdf-link{
@@ -150,16 +167,20 @@ a{ color: var(--accent); }
 .site-pill-link:hover{ background: color-mix(in srgb, var(--green) 22%, var(--bg)); border-color: color-mix(in srgb, var(--green) 45%, transparent); }
 .site-forthcoming{ font-style:italic; font-weight:400; opacity:0.6; }
 
-.site-note{ margin:1.5rem 0 0; font-size:0.85rem; font-style:italic; opacity:0.65; color: var(--ink); }
-.site-note-sm{ margin:0.4rem 0 1.4rem; font-size:0.78rem; opacity:0.5; }
+.site-section .site-note{ margin:1.5rem 0 0; font-size:0.85rem; font-style:italic; opacity:0.65; color: var(--ink); }
+.site-section .site-note-sm{ margin:0.4rem 0 1.4rem; font-size:0.75rem; opacity:0.5; }
 
-.site-teach-block{ margin-bottom: 1.8rem; padding-bottom: 1.8rem; border-bottom: 1px solid var(--line); }
-.site-teach-block:last-child{ border-bottom:none; margin-bottom:0; padding-bottom:0; }
+.site-teach-block{ margin-bottom: 1.8rem; }
+.site-teach-block:last-child{ margin-bottom:0; }
 .site-teach-head{ display:flex; justify-content:space-between; align-items:baseline; gap:1rem; flex-wrap:wrap; }
 .site-teach-role{ font-weight:700; font-size:1.02rem; color: var(--ink); }
 .site-teach-year{ font-variant-numeric:tabular-nums; opacity:0.6; font-size:0.92rem; white-space:nowrap; color: var(--ink); }
-.site-teach-where{ margin:0.3rem 0 0.8rem; font-size:0.92rem; opacity:0.7; font-style:italic; color: var(--ink); }
-.site-teach-where-sub{ margin-top:1.2rem; }
+.site-teach-block .site-teach-where{
+  margin:0.3rem 0 0.8rem; font-family: "Optima", "Avenir Next", "Futura", system-ui, sans-serif;
+  font-size:0.8rem; letter-spacing:0.1em; text-transform:uppercase; opacity:0.6; color: var(--ink);
+  font-weight:700; white-space:nowrap;
+}
+.site-teach-block .site-teach-where.site-teach-where-sub{ margin-top:2rem; }
 
 .site-pub-list{ display:flex; flex-direction:column; gap:1.1rem; }
 .site-pub p{ margin:0; line-height:1.7; font-size:0.98rem; padding-left:1.4rem; text-indent:-1.4rem; max-width:60ch; color: var(--ink); }
@@ -196,4 +217,8 @@ a{ color: var(--accent); }
   .site-sidebar{ border-right:none; border-bottom: 1px solid var(--line); padding-right:0; padding-bottom: 2rem; }
   .site-photo{ width: 180px; height:180px; }
   .site-main{ max-width: 480px; margin: 0 auto; }
+}
+
+@media (max-width: 540px){
+  .site-teach-block .site-teach-where, .site-edu-univ{ white-space: normal; }
 }

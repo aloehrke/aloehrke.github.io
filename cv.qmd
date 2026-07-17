@@ -37,20 +37,30 @@ page-layout: full
 
   <div class="site-main">
     <div class="site-section">
+      <h2>Curriculum Vitae</h2>
       <a class="site-pill-link" href="AL-CV-2026.pdf" target="_blank" rel="noopener">Download Full CV (PDF)</a>
     </div>
 
     <div class="site-section">
       <h2>Education</h2>
       <div class="site-edu">
-        <div class="site-edu-item"><span class="site-degree">Ph.D., Political Science</span><span class="site-where">2022&ndash;2027 (expected), University of California, Davis</span></div>
+        <div class="site-edu-entry">
+          <div class="site-edu-item"><span class="site-degree">Ph.D., Political Science</span><span class="site-edu-year">2022&ndash;2027 (expected)</span></div>
+          <div class="site-edu-univ">University of California, Davis</div>
+        </div>
       </div>
       <ul class="site-list site-list-tight">
         <li>Exam fields: American Politics, Methodology (high pass)</li>
       </ul>
       <div class="site-edu" style="margin-top:1rem;">
-        <div class="site-edu-item"><span class="site-degree">ICPSR Summer Program in Quantitative Methods</span><span class="site-where">2023, 2025, 2026, University of Michigan&ndash;Ann Arbor</span></div>
-        <div class="site-edu-item"><span class="site-degree">B.A., Political Science</span><span class="site-where">2017&ndash;2021, University of Wisconsin&ndash;Green Bay</span></div>
+        <div class="site-edu-entry">
+          <div class="site-edu-item"><span class="site-degree">ICPSR Summer Program in Quantitative Methods</span><span class="site-edu-year">2023, 2025, 2026</span></div>
+          <div class="site-edu-univ">University of Michigan&ndash;Ann Arbor</div>
+        </div>
+        <div class="site-edu-entry">
+          <div class="site-edu-item"><span class="site-degree">B.A., Political Science</span><span class="site-edu-year">2017&ndash;2021</span></div>
+          <div class="site-edu-univ">University of Wisconsin&ndash;Green Bay</div>
+        </div>
       </div>
       <ul class="site-list site-list-tight">
         <li>Summa Cum Laude, with distinction in the major</li>
@@ -95,14 +105,14 @@ page-layout: full
 
     <div class="site-section">
       <h2>Teaching Experience</h2>
-      <p class="site-note site-note-sm">* Indicates courses where I taught discussion sections or lab.</p>
+      <p class="site-note site-note-sm">* Indicates courses where I taught discussion sections or lab</p>
 
       <div class="site-teach-block">
         <div class="site-teach-head">
           <span class="site-teach-role">Teaching Assistant, Graduate Courses</span>
           <span class="site-teach-year">2026</span>
         </div>
-        <p class="site-teach-where">Department of Political Science, University of California, Davis</p>
+        <p class="site-teach-where">Department of Political Science, UC&nbsp;Davis</p>
         <ul class="site-list">
           <li>Quantitative Analysis in Political Science II with Dr. Juan Tellez</li>
           <li>Quantitative Analysis in Political Science I* with Dr. Chris Hare</li>
@@ -114,7 +124,7 @@ page-layout: full
           <span class="site-teach-role">Teaching Assistant, Undergraduate Courses</span>
           <span class="site-teach-year">2019&ndash;2025</span>
         </div>
-        <p class="site-teach-where">Department of Political Science, University of California, Davis</p>
+        <p class="site-teach-where">Department of Political Science, UC&nbsp;Davis</p>
         <ul class="site-list">
           <li>The Scientific Study of Politics* with Dr. Brad Jones</li>
           <li>The Rules of the Electoral Game in American Politics with Dr. Ben Highton</li>
@@ -128,15 +138,15 @@ page-layout: full
           <li>Local Government &amp; Politics with Dr. Scott MacKenzie</li>
           <li>Judicial Politics with Dr. Mark Verbitsky</li>
         </ul>
-        <p class="site-teach-where site-teach-where-sub">Department of Environmental Science &amp; Policy, University of California, Davis</p>
+        <p class="site-teach-where site-teach-where-sub">Department of Environmental Science &amp; Policy, UC&nbsp;Davis</p>
         <ul class="site-list">
           <li>Urban and Regional Planning* with Instructor Alexandra Shea</li>
         </ul>
-        <p class="site-teach-where site-teach-where-sub">Department of Public Administration, University of Wisconsin&ndash;Green Bay</p>
+        <p class="site-teach-where site-teach-where-sub">Department of Public Administration, UW&ndash;Green&nbsp;Bay</p>
         <ul class="site-list">
           <li>Philanthropy: Civic Engagement Through Giving with Dr. Lora Warner</li>
         </ul>
-        <p class="site-teach-where site-teach-where-sub">Department of Political Science, University of Wisconsin&ndash;Green Bay</p>
+        <p class="site-teach-where site-teach-where-sub">Department of Political Science, UW&ndash;Green&nbsp;Bay</p>
         <ul class="site-list">
           <li>Introduction to American Government &amp; Politics with Dr. Aaron Weinschenk</li>
         </ul>
@@ -203,7 +213,7 @@ page-layout: full
           <span class="site-teach-role">Speaker Series Graduate Student Coordinator</span>
           <span class="site-teach-year">2026&ndash;2027</span>
         </div>
-        <p class="site-teach-where">Political Science Department, University of California, Davis</p>
+        <p class="site-teach-where">Political Science Department, UC&nbsp;Davis</p>
       </div>
 
       <div class="site-teach-block">
@@ -219,7 +229,7 @@ page-layout: full
           <span class="site-teach-role">Graduate Association of Political Science Students</span>
           <span class="site-teach-year">2022&ndash;2026</span>
         </div>
-        <p class="site-teach-where">Political Science Department, University of California, Davis</p>
+        <p class="site-teach-where">Political Science Department, UC&nbsp;Davis</p>
         <ul class="site-list">
           <li>Senior Advisor to the President, 2025&ndash;2026</li>
           <li>President, 2024&ndash;2025</li>
@@ -233,7 +243,7 @@ page-layout: full
           <span class="site-teach-role">Graduate Student Peer Mentor</span>
           <span class="site-teach-year">2023&ndash;2026</span>
         </div>
-        <p class="site-teach-where">Political Science Department, University of California, Davis</p>
+        <p class="site-teach-where">Political Science Department, UC&nbsp;Davis</p>
       </div>
 
       <div class="site-teach-block">
@@ -249,7 +259,7 @@ page-layout: full
           <span class="site-teach-role">Graduate Methods Tutor</span>
           <span class="site-teach-year">2023</span>
         </div>
-        <p class="site-teach-where">Political Science Department, University of California, Davis</p>
+        <p class="site-teach-where">Political Science Department, UC&nbsp;Davis</p>
       </div>
 
       <div class="site-teach-block">
@@ -257,7 +267,7 @@ page-layout: full
           <span class="site-teach-role">Associate Dean Intern</span>
           <span class="site-teach-year">2019&ndash;2020</span>
         </div>
-        <p class="site-teach-where">College of Arts, Humanities, &amp; Social Sciences, University of Wisconsin&ndash;Green Bay</p>
+        <p class="site-teach-where">College of Arts, Humanities, &amp; Social Sciences, UW&ndash;Green&nbsp;Bay</p>
       </div>
     </div>
 
@@ -316,6 +326,11 @@ page-layout: full
         <span>Zoom</span>
       </div>
     </div>
+
+    <div class="site-end-divider"></div>
+    <svg class="site-end-mark" viewBox="0 0 90 12" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M4 6 C 16 4, 26 7, 38 6 S 62 2, 86 7" fill="none" stroke-width="2" stroke-linecap="round"/>
+    </svg>
   </div>
 </div>
 ```

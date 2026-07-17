@@ -48,13 +48,14 @@ page-layout: full
 
     <div class="site-section">
       <h2>Teaching Experience</h2>
+      <p class="site-note site-note-sm">* Indicates courses where I taught discussion sections or lab</p>
 
       <div class="site-teach-block">
         <div class="site-teach-head">
           <span class="site-teach-role">Teaching Assistant, Graduate Courses</span>
           <span class="site-teach-year">2026</span>
         </div>
-        <p class="site-teach-where">Department of Political Science, University of California, Davis</p>
+        <p class="site-teach-where">Department of Political Science, UC&nbsp;Davis</p>
         <ul class="site-list">
           <li>Quantitative Analysis in Political Science II</li>
           <li>Quantitative Analysis in Political Science I*</li>
@@ -66,7 +67,7 @@ page-layout: full
           <span class="site-teach-role">Teaching Assistant, Undergraduate Courses</span>
           <span class="site-teach-year">2019&ndash;2025</span>
         </div>
-        <p class="site-teach-where">Department of Political Science, University of California, Davis</p>
+        <p class="site-teach-where">Department of Political Science, UC&nbsp;Davis</p>
         <ul class="site-list">
           <li>The Scientific Study of Politics*</li>
           <li>The Rules of the Electoral Game in American Politics</li>
@@ -78,7 +79,7 @@ page-layout: full
           <li>Local Government &amp; Politics</li>
           <li>Judicial Politics</li>
         </ul>
-        <p class="site-teach-where site-teach-where-sub">Department of Environmental Science &amp; Policy, University of California, Davis</p>
+        <p class="site-teach-where site-teach-where-sub">Department of Environmental Science &amp; Policy, UC&nbsp;Davis</p>
         <ul class="site-list">
           <li>Urban and Regional Planning*</li>
         </ul>
@@ -96,9 +97,12 @@ page-layout: full
           <li>Statistics and Data Analysis I*</li>
         </ul>
       </div>
-
-      <p class="site-note">* Indicates courses where I taught discussion sections or lab.</p>
     </div>
+
+    <div class="site-end-divider"></div>
+    <svg class="site-end-mark" viewBox="0 0 90 12" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M4 6 C 20 1, 32 11, 45 6 S 70 1, 86 6" fill="none" stroke-width="2" stroke-linecap="round"/>
+    </svg>
   </div>
 </div>
 ```

@@ -37,6 +37,7 @@ page-layout: full
 
   <div class="site-main">
     <div class="site-section">
+      <h2>Research Overview</h2>
       <p>I study how individual&rsquo;s identities shape democratic representation and behavior in American politics. I examine how media environments, gender, race, and ethnicity influence both elite decision making and mass public opinion. Using contemporary, quantitative methods, I want to better understand how identity shapes American politics.</p>
     </div>
 
@@ -67,6 +68,11 @@ page-layout: full
         <li>Graduate Student Researcher, UC Davis &mdash; California Legislative Climate Adaptation Project</li>
       </ul>
     </div>
+
+    <div class="site-end-divider"></div>
+    <svg class="site-end-mark" viewBox="0 0 90 12" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M4 6 C 22 3, 30 8, 45 6 S 68 3, 86 6" fill="none" stroke-width="2" stroke-linecap="round"/>
+    </svg>
   </div>
 </div>
 ```
