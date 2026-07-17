@@ -1,0 +1,72 @@
+---
+title: "Research"
+description: "Research by Amanda Loehrke, Ph.D. Candidate in Political Science, University of California, Davis"
+toc: false
+page-layout: full
+---
+
+```{=html}
+<div class="site-wrap">
+  <div class="site-sidebar">
+    <div class="site-photo"></div>
+    <div class="site-heading">
+      <h1>Amanda Loehrke</h1>
+      <svg class="site-underline" viewBox="0 0 260 10" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M2 6 C 40 2, 70 9, 110 5 S 180 1, 258 6" fill="none" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      <p class="site-sub">Ph.D. Candidate</p>
+      <p class="site-kicker">Political Science, UC Davis</p>
+      <div class="site-contact">
+        <a href="mailto:aloehrke@ucdavis.edu" aria-label="Email" title="aloehrke@ucdavis.edu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+            <path d="M3 7l9 6 9-6"></path>
+          </svg>
+        </a>
+        <a href="AL-CV-2026.pdf" target="_blank" rel="noopener" aria-label="Curriculum Vitae" title="Download CV">CV</a>
+      </div>
+
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="research.html" class="is-active">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="site-main">
+    <div class="site-section">
+      <p>I study how individual&rsquo;s identities shape democratic representation and behavior in American politics. I examine how media environments, gender, race, and ethnicity influence both elite decision making and mass public opinion. Using contemporary, quantitative methods, I want to better understand how identity shapes American politics.</p>
+    </div>
+
+    <div class="site-section">
+      <h2>Works in Progress</h2>
+      <div class="site-card">
+        <p class="site-card-label">Dissertation Prospectus</p>
+        <p class="site-card-title">&ldquo;Who Defines Women Candidates? Self-Presentation, Media Framing, and Voter Perception&rdquo;</p>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <h2>Publications</h2>
+      <div class="site-pub-list">
+        <div class="site-pub">
+          <p>Jones, Bradford, Amanda Loehrke, &amp; Bianca Vicu&ntilde;a. 2026 (forthcoming). &ldquo;Latino Immigrant Endorsement of the Criminality Narrative of Detention and Deportation.&rdquo; <em>PS: Political Science &amp; Politics</em>.</p>
+        </div>
+        <div class="site-pub">
+          <p>Weinschenk, Aaron C., Amanda Baker, Zoe Betancourt, Vanessa Depies, Nathan Erck, Quinne Herolt, Amanda Loehrke, Cameron Makurat, Hannah Malmberg, Clarice Martell, Jared Novitzke, Bradley Riddle, Tara Sellen, Leah Tauferner, &amp; Emily Zilliox. 2020. &ldquo;Have State Supreme Court Elections Nationalized?&rdquo; <em>Justice System Journal</em>, 41(4): 313&ndash;322.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <h2>Additional Research Experience</h2>
+      <ul class="site-list">
+        <li>Group Politics Lab, UC Davis</li>
+        <li>Graduate Student Researcher, UC Davis &mdash; California Legislative Climate Adaptation Project</li>
+      </ul>
+    </div>
+  </div>
+</div>
+```

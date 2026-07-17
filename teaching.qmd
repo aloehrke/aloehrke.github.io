@@ -1,0 +1,104 @@
+---
+title: "Teaching"
+description: "Teaching experience of Amanda Loehrke, Ph.D. Candidate in Political Science, University of California, Davis"
+toc: false
+page-layout: full
+---
+
+```{=html}
+<div class="site-wrap">
+  <div class="site-sidebar">
+    <div class="site-photo"></div>
+    <div class="site-heading">
+      <h1>Amanda Loehrke</h1>
+      <svg class="site-underline" viewBox="0 0 260 10" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M2 6 C 40 2, 70 9, 110 5 S 180 1, 258 6" fill="none" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      <p class="site-sub">Ph.D. Candidate</p>
+      <p class="site-kicker">Political Science, UC Davis</p>
+      <div class="site-contact">
+        <a href="mailto:aloehrke@ucdavis.edu" aria-label="Email" title="aloehrke@ucdavis.edu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+            <path d="M3 7l9 6 9-6"></path>
+          </svg>
+        </a>
+        <a href="AL-CV-2026.pdf" target="_blank" rel="noopener" aria-label="Curriculum Vitae" title="Download CV">CV</a>
+      </div>
+
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html" class="is-active">Teaching</a>
+        <a href="cv.html">CV</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="site-main">
+    <div class="site-section">
+      <h2>Teaching Philosophy</h2>
+      <a class="site-pill-link" href="teaching-philosophy.pdf" target="_blank" rel="noopener">Teaching Philosophy (PDF) <span class="site-forthcoming">(forthcoming)</span></a>
+    </div>
+
+    <div class="site-section">
+      <h2>Teaching Materials</h2>
+      <a class="site-pill-link" href="undergraduate-research-methods.pdf" target="_blank" rel="noopener">Undergraduate Research Methods (PDF) <span class="site-forthcoming">(forthcoming)</span></a>
+    </div>
+
+    <div class="site-section">
+      <h2>Teaching Experience</h2>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Teaching Assistant, Graduate Courses</span>
+          <span class="site-teach-year">2026</span>
+        </div>
+        <p class="site-teach-where">Department of Political Science, University of California, Davis</p>
+        <ul class="site-list">
+          <li>Quantitative Analysis in Political Science II</li>
+          <li>Quantitative Analysis in Political Science I*</li>
+        </ul>
+      </div>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Teaching Assistant, Undergraduate Courses</span>
+          <span class="site-teach-year">2019&ndash;2025</span>
+        </div>
+        <p class="site-teach-where">Department of Political Science, University of California, Davis</p>
+        <ul class="site-list">
+          <li>The Scientific Study of Politics*</li>
+          <li>The Rules of the Electoral Game in American Politics</li>
+          <li>Quantitative Analysis of Political Data</li>
+          <li>California State Government and Politics</li>
+          <li>Race &amp; Politics</li>
+          <li>US Foreign Policy</li>
+          <li>Latinx Politics</li>
+          <li>Local Government &amp; Politics</li>
+          <li>Judicial Politics</li>
+        </ul>
+        <p class="site-teach-where site-teach-where-sub">Department of Environmental Science &amp; Policy, University of California, Davis</p>
+        <ul class="site-list">
+          <li>Urban and Regional Planning*</li>
+        </ul>
+      </div>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Teaching Assistant, ICPSR Summer Program</span>
+          <span class="site-teach-year">2025&ndash;2026</span>
+        </div>
+        <p class="site-teach-where">University of Michigan &ndash; Ann Arbor</p>
+        <ul class="site-list">
+          <li>Regression Analysis</li>
+          <li>Introduction to the R Statistical Learning Environment</li>
+          <li>Statistics and Data Analysis I*</li>
+        </ul>
+      </div>
+
+      <p class="site-note">* Indicates courses where I taught discussion sections or lab.</p>
+    </div>
+  </div>
+</div>
+```

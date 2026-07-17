@@ -1,0 +1,321 @@
+---
+title: "CV"
+description: "Curriculum Vitae of Amanda Loehrke, Ph.D. Candidate in Political Science, University of California, Davis"
+toc: false
+page-layout: full
+---
+
+```{=html}
+<div class="site-wrap">
+  <div class="site-sidebar">
+    <div class="site-photo"></div>
+    <div class="site-heading">
+      <h1>Amanda Loehrke</h1>
+      <svg class="site-underline" viewBox="0 0 260 10" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M2 6 C 40 2, 70 9, 110 5 S 180 1, 258 6" fill="none" stroke-width="2.4" stroke-linecap="round"/>
+      </svg>
+      <p class="site-sub">Ph.D. Candidate</p>
+      <p class="site-kicker">Political Science, UC Davis</p>
+      <div class="site-contact">
+        <a href="mailto:aloehrke@ucdavis.edu" aria-label="Email" title="aloehrke@ucdavis.edu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+            <path d="M3 7l9 6 9-6"></path>
+          </svg>
+        </a>
+        <a href="AL-CV-2026.pdf" target="_blank" rel="noopener" aria-label="Curriculum Vitae" title="Download CV">CV</a>
+      </div>
+
+      <nav class="site-nav">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="cv.html" class="is-active">CV</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="site-main">
+    <div class="site-section">
+      <a class="site-pill-link" href="AL-CV-2026.pdf" target="_blank" rel="noopener">Download Full CV (PDF)</a>
+    </div>
+
+    <div class="site-section">
+      <h2>Education</h2>
+      <div class="site-edu">
+        <div class="site-edu-item"><span class="site-degree">Ph.D., Political Science</span><span class="site-where">2022&ndash;2027 (expected), University of California, Davis</span></div>
+      </div>
+      <ul class="site-list site-list-tight">
+        <li>Exam fields: American Politics, Methodology (high pass)</li>
+      </ul>
+      <div class="site-edu" style="margin-top:1rem;">
+        <div class="site-edu-item"><span class="site-degree">ICPSR Summer Program in Quantitative Methods</span><span class="site-where">2023, 2025, 2026, University of Michigan&ndash;Ann Arbor</span></div>
+        <div class="site-edu-item"><span class="site-degree">B.A., Political Science</span><span class="site-where">2017&ndash;2021, University of Wisconsin&ndash;Green Bay</span></div>
+      </div>
+      <ul class="site-list site-list-tight">
+        <li>Summa Cum Laude, with distinction in the major</li>
+        <li>Majors: Political Science, Democracy &amp; Justice Studies (emphases: Legal Studies, U.S. &amp; the World), and Public Administration (emphasis: Public &amp; Nonprofit Management)</li>
+      </ul>
+    </div>
+
+    <div class="site-section">
+      <h2>Research &amp; Teaching Interests</h2>
+      <div class="site-pill-group">
+        <h3>Substantive</h3>
+        <div class="site-pills">
+          <span>American Political Behavior</span>
+          <span>Gender, Race &amp; Ethnic Politics</span>
+          <span>Identity &amp; Representation</span>
+          <span>Media &amp; Political Communication</span>
+        </div>
+      </div>
+      <div class="site-pill-group">
+        <h3>Methodological</h3>
+        <div class="site-pills">
+          <span>Computational Social Science</span>
+          <span>Machine Learning</span>
+          <span>Natural Language Processing</span>
+          <span>Text Analysis &amp; Classification</span>
+          <span>Causal Inference</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <h2>Publications</h2>
+      <div class="site-pub-list">
+        <div class="site-pub">
+          <p>Jones, Bradford, Amanda Loehrke, &amp; Bianca Vicu&ntilde;a. 2026 (forthcoming). &ldquo;Latino Immigrant Endorsement of the Criminality Narrative of Detention and Deportation.&rdquo; <em>PS: Political Science &amp; Politics</em>.</p>
+        </div>
+        <div class="site-pub">
+          <p>Weinschenk, Aaron C., Amanda Baker, Zoe Betancourt, Vanessa Depies, Nathan Erck, Quinne Herolt, Amanda Loehrke, Cameron Makurat, Hannah Malmberg, Clarice Martell, Jared Novitzke, Bradley Riddle, Tara Sellen, Leah Tauferner, &amp; Emily Zilliox. 2020. &ldquo;Have State Supreme Court Elections Nationalized?&rdquo; <em>Justice System Journal</em>, 41(4): 313&ndash;322.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <h2>Teaching Experience</h2>
+      <p class="site-note site-note-sm">* Indicates courses where I taught discussion sections or lab.</p>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Teaching Assistant, Graduate Courses</span>
+          <span class="site-teach-year">2026</span>
+        </div>
+        <p class="site-teach-where">Department of Political Science, University of California, Davis</p>
+        <ul class="site-list">
+          <li>Quantitative Analysis in Political Science II with Dr. Juan Tellez</li>
+          <li>Quantitative Analysis in Political Science I* with Dr. Chris Hare</li>
+        </ul>
+      </div>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Teaching Assistant, Undergraduate Courses</span>
+          <span class="site-teach-year">2019&ndash;2025</span>
+        </div>
+        <p class="site-teach-where">Department of Political Science, University of California, Davis</p>
+        <ul class="site-list">
+          <li>The Scientific Study of Politics* with Dr. Brad Jones</li>
+          <li>The Rules of the Electoral Game in American Politics with Dr. Ben Highton</li>
+          <li>Quantitative Analysis of Political Data with Dr. Brad Jones</li>
+          <li>The Scientific Study of Politics* with Dr. Chris Hare</li>
+          <li>The Scientific Study of Politics* with Dr. Juan Tellez</li>
+          <li>California State Government and Politics with Dr. Scott MacKenzie</li>
+          <li>Race &amp; Politics with Dr. Brad Jones</li>
+          <li>US Foreign Policy with Dr. McCage Griffiths</li>
+          <li>Latinx Politics with Dr. Brad Jones</li>
+          <li>Local Government &amp; Politics with Dr. Scott MacKenzie</li>
+          <li>Judicial Politics with Dr. Mark Verbitsky</li>
+        </ul>
+        <p class="site-teach-where site-teach-where-sub">Department of Environmental Science &amp; Policy, University of California, Davis</p>
+        <ul class="site-list">
+          <li>Urban and Regional Planning* with Instructor Alexandra Shea</li>
+        </ul>
+        <p class="site-teach-where site-teach-where-sub">Department of Public Administration, University of Wisconsin&ndash;Green Bay</p>
+        <ul class="site-list">
+          <li>Philanthropy: Civic Engagement Through Giving with Dr. Lora Warner</li>
+        </ul>
+        <p class="site-teach-where site-teach-where-sub">Department of Political Science, University of Wisconsin&ndash;Green Bay</p>
+        <ul class="site-list">
+          <li>Introduction to American Government &amp; Politics with Dr. Aaron Weinschenk</li>
+        </ul>
+      </div>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Teaching Assistant, ICPSR Summer Program in Quantitative Methods</span>
+          <span class="site-teach-year">2025&ndash;2026</span>
+        </div>
+        <p class="site-teach-where">University of Michigan&ndash;Ann Arbor</p>
+        <ul class="site-list">
+          <li>Regression Analysis with Dr. Tim McDaniel</li>
+          <li>Introduction to the R Statistical Learning Environment with Dr. Kerem Ozan Kalkan</li>
+          <li>Statistics and Data Analysis I* with Dr. Niccole Pamphilis</li>
+        </ul>
+      </div>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Teacher and Subject Tutor, Huntington Learning Center</span>
+          <span class="site-teach-year">2021&ndash;2022</span>
+        </div>
+        <p class="site-teach-where">Middleton, WI</p>
+        <ul class="site-list">
+          <li>Tutor for 1st&ndash;12th grade Math, Science, Reading, English, Writing, and college-level History</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <h2>Research Experience</h2>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Graduate Student Researcher</span>
+          <span class="site-teach-year">2023</span>
+        </div>
+        <p class="site-teach-where">University of California, Davis</p>
+        <ul class="site-list">
+          <li>CA Legislative Climate Adaptation Project, supervised by Dr. Scott MacKenzie</li>
+        </ul>
+      </div>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Undergraduate Research</span>
+          <span class="site-teach-year">2018&ndash;2021</span>
+        </div>
+        <p class="site-teach-where">University of Wisconsin&ndash;Green Bay</p>
+        <ul class="site-list">
+          <li>Honors in the Major Project, &ldquo;Representing Women: An Exploration of Leadership and Elected Officials in Northeastern Wisconsin,&rdquo; supervised by Dr. Lora Warner</li>
+          <li>Political Science Research Lab, supervised by Dr. Aaron Weinschenk</li>
+          <li>Independent Research Studies, supervised by Dr. Aaron Weinschenk</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <h2>Professional Service</h2>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Speaker Series Graduate Student Coordinator</span>
+          <span class="site-teach-year">2026&ndash;2027</span>
+        </div>
+        <p class="site-teach-where">Political Science Department, University of California, Davis</p>
+      </div>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Graduate Student Advocate</span>
+          <span class="site-teach-year">2026</span>
+        </div>
+        <p class="site-teach-where">University of California Graduate and Professional Council, Washington D.C.</p>
+      </div>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Graduate Association of Political Science Students</span>
+          <span class="site-teach-year">2022&ndash;2026</span>
+        </div>
+        <p class="site-teach-where">Political Science Department, University of California, Davis</p>
+        <ul class="site-list">
+          <li>Senior Advisor to the President, 2025&ndash;2026</li>
+          <li>President, 2024&ndash;2025</li>
+          <li>Vice President, 2023&ndash;2024</li>
+          <li>Graduate Student Association Representative, 2022&ndash;2023</li>
+        </ul>
+      </div>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Graduate Student Peer Mentor</span>
+          <span class="site-teach-year">2023&ndash;2026</span>
+        </div>
+        <p class="site-teach-where">Political Science Department, University of California, Davis</p>
+      </div>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Reviewer</span>
+          <span class="site-teach-year">2025</span>
+        </div>
+        <p class="site-teach-where">American Journal of Political Science</p>
+      </div>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Graduate Methods Tutor</span>
+          <span class="site-teach-year">2023</span>
+        </div>
+        <p class="site-teach-where">Political Science Department, University of California, Davis</p>
+      </div>
+
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Associate Dean Intern</span>
+          <span class="site-teach-year">2019&ndash;2020</span>
+        </div>
+        <p class="site-teach-where">College of Arts, Humanities, &amp; Social Sciences, University of Wisconsin&ndash;Green Bay</p>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <h2>Presentations</h2>
+      <div class="site-teach-block">
+        <div class="site-teach-head">
+          <span class="site-teach-role">Midwest Political Science Association</span>
+          <span class="site-teach-year">2024&ndash;2025</span>
+        </div>
+        <p class="site-teach-where">Chicago, IL</p>
+        <ul class="site-list">
+          <li>&ldquo;Shifting Narratives: The Dobbs Ruling and Abortion Discourse in American Media&rdquo;</li>
+          <li>&ldquo;Beyond the Ballot: Survey Design on Descriptive Representation in American Campaigns&rdquo;</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <h2>Honors &amp; Awards</h2>
+      <div class="site-cv-group">
+        <h3>University of California, Davis</h3>
+        <div class="site-award-list">
+          <div class="site-award-row"><span>Walter J. Stone Graduate Summer Fellowship</span><span class="site-award-year">2026</span></div>
+          <div class="site-award-row"><span>Robert Jackman Award</span><span class="site-award-year">2026</span></div>
+          <div class="site-award-row"><span>College of Letters and Science Dean&rsquo;s Graduate Student Summer Support Award</span><span class="site-award-year">2025</span></div>
+          <div class="site-award-row"><span>Charles Hardin Award</span><span class="site-award-year">2025</span></div>
+          <div class="site-award-row"><span>Summer Methods Travel Support Program Award</span><span class="site-award-year">2025</span></div>
+          <div class="site-award-row"><span>Graduate Studies Outstanding Teaching Assistant Award, Nominated</span><span class="site-award-year">2024</span></div>
+          <div class="site-award-row"><span>Summer Methods Travel Support Program Award</span><span class="site-award-year">2023</span></div>
+        </div>
+      </div>
+      <div class="site-cv-group">
+        <h3>University of Wisconsin&ndash;Green Bay</h3>
+        <div class="site-award-list">
+          <div class="site-award-row"><span>Chancellor&rsquo;s Leadership Medallion</span><span class="site-award-year">2021</span></div>
+          <div class="site-award-row"><span>Academic Dean&rsquo;s List</span><span class="site-award-year">2017&ndash;2021</span></div>
+          <div class="site-award-row"><span>University Leadership Award</span><span class="site-award-year">2020</span></div>
+          <div class="site-award-row"><span>Center for Public Affairs Research Endowed Scholarship</span><span class="site-award-year">2020</span></div>
+          <div class="site-award-row"><span>Denise Scheberle Scholarship for Political Science</span><span class="site-award-year">2020</span></div>
+          <div class="site-award-row"><span>Martin Luther King, Jr. Social Justice Award</span><span class="site-award-year">2018</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section">
+      <h2>Skills</h2>
+      <div class="site-pills">
+        <span>R / RStudio</span>
+        <span>LaTeX</span>
+        <span>GitHub</span>
+        <span>Claude Code</span>
+        <span>Google Workspace</span>
+        <span>Microsoft Office</span>
+        <span>Slack</span>
+        <span>Zoom</span>
+      </div>
+    </div>
+  </div>
+</div>
+```

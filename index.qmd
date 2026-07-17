@@ -25,6 +25,13 @@ page-layout: full
         </a>
         <a href="AL-CV-2026.pdf" target="_blank" rel="noopener" aria-label="Curriculum Vitae" title="Download CV">CV</a>
       </div>
+
+      <nav class="site-nav">
+        <a href="index.html" class="is-active">Home</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="cv.html">CV</a>
+      </nav>
     </div>
   </div>
 
@@ -38,8 +45,8 @@ page-layout: full
     <div class="site-section">
       <h2>Education</h2>
       <div class="site-edu">
-        <div class="site-edu-item"><span class="site-degree">Ph.D., Political Science</span><span class="site-edu-dot" aria-hidden="true"></span><span class="site-where">2022&ndash;2027 (in progress), University of California, Davis</span></div>
-        <div class="site-edu-item"><span class="site-degree">B.A., Political Science</span><span class="site-edu-dot" aria-hidden="true"></span><span class="site-where">2021, University of Wisconsin&ndash;Green Bay</span></div>
+        <div class="site-edu-item"><span class="site-degree">Ph.D., Political Science</span><span class="site-where">2022&ndash;2027 (in progress), University of California, Davis</span></div>
+        <div class="site-edu-item"><span class="site-degree">B.A., Political Science</span><span class="site-where">2021, University of Wisconsin&ndash;Green Bay</span></div>
       </div>
     </div>
 
