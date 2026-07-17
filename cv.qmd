@@ -85,10 +85,10 @@ page-layout: full
       <h2>Publications</h2>
       <div class="site-pub-list">
         <div class="site-pub">
-          <p>Jones, Bradford, Amanda Loehrke, &amp; Bianca Vicu&ntilde;a. 2026 (forthcoming). &ldquo;Latino Immigrant Endorsement of the Criminality Narrative of Detention and Deportation.&rdquo; <em>PS: Political Science &amp; Politics</em>.</p>
+          <p>Jones, Bradford, <strong>Amanda Loehrke</strong>, &amp; Bianca Vicu&ntilde;a. 2026 (forthcoming). &ldquo;Latino Immigrant Endorsement of the Criminality Narrative of Detention and Deportation.&rdquo; <em>PS: Political Science &amp; Politics</em>.</p>
         </div>
         <div class="site-pub">
-          <p>Weinschenk, Aaron C., Amanda Baker, Zoe Betancourt, Vanessa Depies, Nathan Erck, Quinne Herolt, Amanda Loehrke, Cameron Makurat, Hannah Malmberg, Clarice Martell, Jared Novitzke, Bradley Riddle, Tara Sellen, Leah Tauferner, &amp; Emily Zilliox. 2020. &ldquo;Have State Supreme Court Elections Nationalized?&rdquo; <em>Justice System Journal</em>, 41(4): 313&ndash;322.</p>
+          <p>Weinschenk, Aaron C., Amanda Baker, Zoe Betancourt, Vanessa Depies, Nathan Erck, Quinne Herolt, <strong>Amanda Loehrke</strong>, Cameron Makurat, Hannah Malmberg, Clarice Martell, Jared Novitzke, Bradley Riddle, Tara Sellen, Leah Tauferner, &amp; Emily Zilliox. 2020. &ldquo;Have State Supreme Court Elections Nationalized?&rdquo; <em>Justice System Journal</em>, 41(4): 313&ndash;322.</p>
         </div>
       </div>
     </div>
