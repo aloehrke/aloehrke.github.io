@@ -23,7 +23,7 @@ page-layout: full
             <path d="M3 7l9 6 9-6"></path>
           </svg>
         </a>
-        <a href="AL-CV-2026.pdf" target="_blank" rel="noopener" aria-label="Curriculum Vitae" title="Download CV">CV</a>
+        <a href="AL_CV_summer_2026.pdf" target="_blank" rel="noopener" aria-label="Curriculum Vitae" title="Download CV">CV</a>
       </div>
 
       <nav class="site-nav">

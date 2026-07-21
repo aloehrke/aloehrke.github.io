@@ -33,7 +33,7 @@ body{
 a{ color: var(--accent); }
 
 .site-wrap{
-  max-width: 1080px; margin: 0 auto;
+  max-width: 1150px; margin: 0 auto;
   display:grid; grid-template-columns: 250px 1fr; gap: 3rem;
   align-items: start;
   padding: 3.25rem clamp(1.25rem,5vw,3rem) 5rem;
@@ -105,7 +105,7 @@ a{ color: var(--accent); }
   font-size:0.9rem; letter-spacing:0.14em; text-transform:uppercase; color: var(--accent);
   border-bottom: none; padding-bottom: 0;
 }
-.site-section p{ margin:0 0 0.9rem; line-height:1.75; font-size:1.03rem; max-width:60ch; color: var(--ink); }
+.site-section p{ margin:0 0 0.9rem; line-height:1.75; font-size:1.03rem; max-width:68ch; color: var(--ink); }
 
 .site-edu{ display:flex; flex-direction:column; gap:0.9rem; }
 .site-edu-item{ display:flex; gap:0.4rem; align-items:center; flex-wrap:wrap; line-height:1.4; }
@@ -141,11 +141,12 @@ a{ color: var(--accent); }
   border: 1px solid var(--line);
   border-radius: 14px;
   padding: 1.1rem 1.4rem;
+  max-width: 68ch;
 }
 .site-card .site-card-label{
   margin:0 0 0.35rem; font-family: "Optima", "Avenir Next", "Futura", system-ui, sans-serif;
   font-size:0.8rem; letter-spacing:0.1em; text-transform:uppercase; color: var(--ink); opacity:0.6;
-  font-weight:700; white-space:nowrap;
+  font-weight:700; white-space:nowrap; max-width:none;
 }
 .site-card-title{ margin:0; font-size:1.05rem; line-height:1.6; color: var(--ink); }
 .site-pdf-link{
@@ -167,7 +168,7 @@ a{ color: var(--accent); }
 .site-pill-link:hover{ background: color-mix(in srgb, var(--green) 22%, var(--bg)); border-color: color-mix(in srgb, var(--green) 45%, transparent); }
 .site-forthcoming{ font-style:italic; font-weight:400; opacity:0.6; }
 
-.site-section .site-note{ margin:1.5rem 0 0; font-size:0.85rem; font-style:italic; opacity:0.65; color: var(--ink); }
+.site-section .site-note{ margin:1.5rem 0 0; font-size:0.85rem; font-style:italic; opacity:0.65; color: var(--ink); max-width:none; }
 .site-section .site-note-sm{ margin:0.4rem 0 1.4rem; font-size:0.75rem; opacity:0.5; }
 
 .site-teach-block{ margin-bottom: 1.8rem; }
@@ -178,12 +179,12 @@ a{ color: var(--accent); }
 .site-teach-block .site-teach-where{
   margin:0.3rem 0 0.8rem; font-family: "Optima", "Avenir Next", "Futura", system-ui, sans-serif;
   font-size:0.8rem; letter-spacing:0.1em; text-transform:uppercase; opacity:0.6; color: var(--ink);
-  font-weight:700; white-space:nowrap;
+  font-weight:700; white-space:nowrap; max-width:none;
 }
 .site-teach-block .site-teach-where.site-teach-where-sub{ margin-top:2rem; }
 
 .site-pub-list{ display:flex; flex-direction:column; gap:1.1rem; }
-.site-pub p{ margin:0; line-height:1.7; font-size:0.98rem; padding-left:1.4rem; text-indent:-1.4rem; max-width:60ch; color: var(--ink); }
+.site-pub p{ margin:0; line-height:1.7; font-size:0.98rem; padding-left:1.4rem; text-indent:-1.4rem; max-width:68ch; color: var(--ink); }
 .site-pub em{ font-style:italic; }
 
 .site-list{ margin:0; padding:0; list-style:none; display:flex; flex-direction:column; gap:0.6rem; }
