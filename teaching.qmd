@@ -38,7 +38,7 @@ page-layout: full
   <div class="site-main">
     <div class="site-section">
       <h2>Teaching Philosophy</h2>
-      <a class="site-pill-link" href="teaching-philosophy.pdf" target="_blank" rel="noopener">Teaching Philosophy (PDF) <span class="site-forthcoming">(forthcoming)</span></a>
+      <a class="site-pill-link" href="AL_teaching_philosophy.pdf" target="_blank" rel="noopener">Teaching Philosophy (PDF)</a>
     </div>
 
     <div class="site-section">
