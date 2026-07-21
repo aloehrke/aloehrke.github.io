@@ -166,6 +166,7 @@ a{ color: var(--accent); }
   transition: background-color .15s ease, border-color .15s ease;
 }
 .site-pill-link:hover{ background: color-mix(in srgb, var(--green) 22%, var(--bg)); border-color: color-mix(in srgb, var(--green) 45%, transparent); }
+.site-pill-stack{ display:flex; flex-direction:column; align-items:flex-start; gap:0.6rem; }
 .site-forthcoming{ font-style:italic; font-weight:400; opacity:0.6; }
 
 .site-section .site-note{ margin:1.5rem 0 0; font-size:0.85rem; font-style:italic; opacity:0.65; color: var(--ink); max-width:none; }
